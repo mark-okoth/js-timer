@@ -14,7 +14,7 @@ function tick(){
         if(hours < 10){
             hours = '0' + hours
         }
-        let mins = Math.floor((t % (1000 * 60 * 60)
+        let mins = Math.floor((t % (1000 * 60 * 60))/(1000*60))
         if(mins < 10){
             min = '0' + mins
         }
