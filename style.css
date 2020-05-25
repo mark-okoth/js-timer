@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+
+}
+
+body{
+    background-image: url(./09-game-corner-homebnc1.jpg);
+    background-repeat: no-repeat;
+    background-color:rgb(41, 2, 2);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-blend-mode: multiply;
+    transition: all 1s ease-in-out;
+}
+
+body:hover{
+    background-color: blue;
+}
