@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Helvetica;
+    color: white;
+    font-size: 2rem;
 
 }
 
@@ -18,4 +20,15 @@ body{
 
 body:hover{
     background-color: blue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container h3{
+    font-size: 1.5rem;
 }
