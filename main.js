@@ -1,4 +1,4 @@
-let launchDate = new Date('Jun 15, 2020').getTime();
+let launchDate = new Date('Dec 25, 2020').getTime();
 
 let timer = setInterval(tick, 1000)
 
